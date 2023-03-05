@@ -1,2 +1,2 @@
-db_master_user     = "root"
-db_master_password = "Tobias-0627"
+db_master_user     = "root" # Set username
+db_master_password = "XXXXXXXXXX" # Set password
