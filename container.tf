@@ -51,7 +51,7 @@ resource "aws_ecs_task_definition" "task_difinition" {
     operating_system_family = "LINUX"
     cpu_architecture        = "X86_64"
   }
-  execution_role_arn = "arn:aws:iam::738452829225:role/ecsTaskExecutionRole"
+  execution_role_arn = "arn:aws:iam::XXXXXXXXXXXX:role/ecsTaskExecutionRole" # Set your AWS account number.
   task_role_arn      = aws_iam_role.task_role.arn
 
   # Volume Setting
